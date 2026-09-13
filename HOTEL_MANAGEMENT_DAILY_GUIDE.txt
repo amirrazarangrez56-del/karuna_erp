@@ -1,0 +1,48 @@
+================================================================================
+          KARUNA HOTEL POS - HOTEL MANAGEMENT & DAILY OPERATIONS MANUAL
+================================================================================
+
+--------------------------------------------------------------------------------
+1. DAILY MORNING ROUTINE (STAFF STARTUP - ZERO CONFUSION)
+--------------------------------------------------------------------------------
+STEP 1: Turn on the Network Switch / Router Box (ensure power LED is ON).
+STEP 2: Turn on Computer 1 (Owner PC) ➔ Double-click 'Karuna Hotel POS (Owner)' on Desktop.
+STEP 3: Turn on Laptop 2 & Laptop 3 ➔ Double-click 'Karuna Hotel POS (Billing)' on Desktop.
+
+That's it! In 5 seconds, all billing counters are live and connected.
+
+
+--------------------------------------------------------------------------------
+2. DAILY NIGHT ROUTINE (CLOSING SHIFT & OWNER REPORT)
+--------------------------------------------------------------------------------
+1. On Computer 1, click "Settle Bills" (बिल तपासणी) or "Owner Admin" (मालक पॅनेल).
+2. View:
+   • Total Daily Revenue (एकूण विक्री)
+   • Counter 1 Total vs Counter 2 Total vs Counter 3 Total
+   • Cash collected in cash drawer vs Online / UPI collections vs Card
+3. Click "Offline Local Backup" ➔ "Export Full Backup" or "Export Food Items (CSV)" to save daily ledger.
+
+
+--------------------------------------------------------------------------------
+3. TOP 5 REAL-WORLD PROBLEMS & INSTANT SOLUTIONS (TROUBLESHOOTING)
+--------------------------------------------------------------------------------
+
+PROBLEM 1: "Laptop says 'Retrying connection / Disconnected' in morning"
+SOLUTION:
+  a. Ensure Computer 1 (Owner PC) is turned on first and START_OWNER_DESKTOP_SERVER.bat is running.
+  b. Run 'ALLOW_FIREWALL_ON_SERVER.bat' once on Computer 1 to allow LAN connections.
+  c. Check if the LAN wire is plugged into both the laptop and the switch (green/orange blinking light).
+
+PROBLEM 2: "Staff changed or Cashier shifted counters"
+SOLUTION:
+  • In top-right header, click the counter badge (e.g. Counter 1 ➔ Switch to Counter 2).
+
+PROBLEM 3: "Need to add a new dish, change price, or add multiple prices (e.g. 250g, 500g, 1 Kg)"
+SOLUTION:
+  • On Computer 1, go to Owner Admin ➔ 'Dishes & Menu Management'.
+  • Add or edit price ➔ Click Save.
+
+PROBLEM 4: "Need offline safety backup"
+SOLUTION:
+  • Go to Owner Admin ➔ 'Offline Local Backup' ➔ Click 'Download Backup File (.json)'.
+================================================================================

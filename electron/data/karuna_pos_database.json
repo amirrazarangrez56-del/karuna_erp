@@ -1,0 +1,7626 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Breakfast & Snacks",
+      "isFixed": true,
+      "srNo": 1
+    },
+    {
+      "id": 2,
+      "name": "Sweets",
+      "isFixed": true,
+      "srNo": 2
+    }
+  ],
+  "subCategories": [
+    {
+      "id": 1,
+      "name": "Single Items",
+      "parentCategoryId": 1,
+      "srNo": 1
+    },
+    {
+      "id": 2,
+      "name": "Dosa & Uttappa",
+      "parentCategoryId": 1,
+      "srNo": 2
+    },
+    {
+      "id": 3,
+      "name": "Pav Bhaji & Meals",
+      "parentCategoryId": 1,
+      "srNo": 3
+    },
+    {
+      "id": 4,
+      "name": "Indian Bread",
+      "parentCategoryId": 1,
+      "srNo": 4
+    },
+    {
+      "id": 5,
+      "name": "Tea, Coffee & Cold Drinks",
+      "parentCategoryId": 1,
+      "srNo": 5
+    },
+    {
+      "id": 6,
+      "name": "Extras & Sides",
+      "parentCategoryId": 1,
+      "srNo": 6
+    },
+    {
+      "id": 7,
+      "name": "Kaju Sweets",
+      "parentCategoryId": 2,
+      "srNo": 1
+    },
+    {
+      "id": 8,
+      "name": "Mawa Sweets",
+      "parentCategoryId": 2,
+      "srNo": 2
+    },
+    {
+      "id": 9,
+      "name": "Bengali Sweets",
+      "parentCategoryId": 2,
+      "srNo": 3
+    },
+    {
+      "id": 10,
+      "name": "Ghee & Laddu Sweets",
+      "parentCategoryId": 2,
+      "srNo": 4
+    },
+    {
+      "id": 11,
+      "name": "Dry Fruit Sweets",
+      "parentCategoryId": 2,
+      "srNo": 5
+    }
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "name": "Dine In Area",
+      "extraCharge": 0
+    },
+    {
+      "id": 2,
+      "name": "First Floor",
+      "extraCharge": 0
+    },
+    {
+      "id": 3,
+      "name": "AC Hall",
+      "extraCharge": 0
+    },
+    {
+      "id": 4,
+      "name": "Parcels Counter",
+      "extraCharge": 0
+    }
+  ],
+  "dishes": [
+    {
+      "id": 1,
+      "srNo": 101,
+      "name": "Single Idli Vada",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "price": 50,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 50,
+        "2": 50,
+        "3": 60,
+        "4": 50
+      },
+      "subItems": [
+        {
+          "name": "Chutney",
+          "qty": "1"
+        },
+        {
+          "name": "Sambar",
+          "qty": "1"
+        }
+      ],
+      "stockQty": 0,
+      "status": "Out of Stock"
+    },
+    {
+      "id": 2,
+      "srNo": 102,
+      "name": "Uppit",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "price": 50,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 50,
+        "2": 50,
+        "3": 60,
+        "4": 50
+      },
+      "subItems": []
+    },
+    {
+      "id": 3,
+      "srNo": 103,
+      "name": "Pohe",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "price": 35,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 35,
+        "2": 35,
+        "3": 45,
+        "4": 35
+      },
+      "subItems": [
+        {
+          "name": "Sev & Lemon",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "srNo": 104,
+      "name": "Sheera",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "price": 45,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 45,
+        "2": 45,
+        "3": 55,
+        "4": 45
+      },
+      "subItems": [],
+      "stockQty": 0,
+      "status": "Out of Stock"
+    },
+    {
+      "id": 5,
+      "srNo": 105,
+      "name": "Puri Bhaji",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "price": 75,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 75,
+        "2": 75,
+        "3": 85,
+        "4": 75
+      },
+      "subItems": [
+        {
+          "name": "4 Puris",
+          "qty": "1 portion"
+        },
+        {
+          "name": "Potato Bhaji",
+          "qty": "1 bowl"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "srNo": 106,
+      "name": "Idli",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "price": 50,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 50,
+        "2": 50,
+        "3": 60,
+        "4": 50
+      },
+      "subItems": [
+        {
+          "name": "2 Idlis",
+          "qty": "1 plate"
+        },
+        {
+          "name": "Sambar & Chutney",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "srNo": 107,
+      "name": "Vada Sambar",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "price": 60,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 60,
+        "2": 60,
+        "3": 70,
+        "4": 60
+      },
+      "subItems": [
+        {
+          "name": "2 Vadas",
+          "qty": "1 plate"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "srNo": 108,
+      "name": "Idli Vada",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "price": 60,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 60,
+        "2": 60,
+        "3": 70,
+        "4": 60
+      },
+      "subItems": [
+        {
+          "name": "1 Idli 1 Vada",
+          "qty": "1 plate"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "srNo": 109,
+      "name": "Shabu Vada",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "price": 70,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 70,
+        "2": 70,
+        "3": 80,
+        "4": 70
+      },
+      "subItems": [],
+      "stockQty": 0,
+      "status": "Out of Stock"
+    },
+    {
+      "id": 10,
+      "srNo": 110,
+      "name": "Shabu Khichdi",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "price": 60,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 60,
+        "2": 60,
+        "3": 70,
+        "4": 60
+      },
+      "subItems": [
+        {
+          "name": "Curd",
+          "qty": "1 bowl"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "srNo": 111,
+      "name": "Dahi Vada",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "price": 70,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 70,
+        "2": 70,
+        "3": 80,
+        "4": 70
+      },
+      "subItems": []
+    },
+    {
+      "id": 12,
+      "srNo": 112,
+      "name": "Batata Vada",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "price": 40,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 40,
+        "2": 40,
+        "3": 50,
+        "4": 40
+      },
+      "subItems": []
+    },
+    {
+      "id": 13,
+      "srNo": 113,
+      "name": "Samosa",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "price": 40,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 40,
+        "2": 40,
+        "3": 50,
+        "4": 40
+      },
+      "subItems": []
+    },
+    {
+      "id": 14,
+      "srNo": 114,
+      "name": "Kachori",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "price": 40,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 40,
+        "2": 40,
+        "3": 50,
+        "4": 40
+      },
+      "subItems": []
+    },
+    {
+      "id": 15,
+      "srNo": 115,
+      "name": "Dhokla",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "price": 45,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 45,
+        "2": 45,
+        "3": 55,
+        "4": 45
+      },
+      "subItems": []
+    },
+    {
+      "id": 16,
+      "srNo": 116,
+      "name": "Bhaji (Pakoda)",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "price": 50,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 50,
+        "2": 50,
+        "3": 60,
+        "4": 50
+      },
+      "subItems": []
+    },
+    {
+      "id": 17,
+      "srNo": 117,
+      "name": "Pakoda",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "price": 50,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 50,
+        "2": 50,
+        "3": 60,
+        "4": 50
+      },
+      "subItems": [],
+      "stockQty": 9,
+      "status": "In Stock"
+    },
+    {
+      "id": 18,
+      "srNo": 118,
+      "name": "Papdi",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "price": 35,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 35,
+        "2": 35,
+        "3": 45,
+        "4": 35
+      },
+      "subItems": [],
+      "stockQty": 10,
+      "status": "In Stock"
+    },
+    {
+      "id": 19,
+      "srNo": 121,
+      "name": "Plain Dosa",
+      "categoryId": 1,
+      "subCategoryId": 2,
+      "price": 55,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 55,
+        "2": 55,
+        "3": 65,
+        "4": 55
+      },
+      "subItems": [
+        {
+          "name": "Chutney & Sambar",
+          "qty": "1"
+        }
+      ],
+      "stockQty": 0,
+      "status": "In Stock"
+    },
+    {
+      "id": 20,
+      "srNo": 122,
+      "name": "Masala Dosa",
+      "categoryId": 1,
+      "subCategoryId": 2,
+      "price": 70,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 70,
+        "2": 70,
+        "3": 80,
+        "4": 70
+      },
+      "subItems": [
+        {
+          "name": "Potato Masala, Chutney, Sambar",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "srNo": 123,
+      "name": "Mysore Masala Dosa",
+      "categoryId": 1,
+      "subCategoryId": 2,
+      "price": 85,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 85,
+        "2": 85,
+        "3": 95,
+        "4": 85
+      },
+      "subItems": []
+    },
+    {
+      "id": 22,
+      "srNo": 124,
+      "name": "Cheese Masala Dosa",
+      "categoryId": 1,
+      "subCategoryId": 2,
+      "price": 95,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 95,
+        "2": 95,
+        "3": 105,
+        "4": 95
+      },
+      "subItems": []
+    },
+    {
+      "id": 23,
+      "srNo": 125,
+      "name": "Onion Uttappa",
+      "categoryId": 1,
+      "subCategoryId": 2,
+      "price": 75,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 75,
+        "2": 75,
+        "3": 85,
+        "4": 75
+      },
+      "subItems": []
+    },
+    {
+      "id": 24,
+      "srNo": 126,
+      "name": "Tomato Onion Uttappa",
+      "categoryId": 1,
+      "subCategoryId": 2,
+      "price": 80,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 80,
+        "2": 80,
+        "3": 90,
+        "4": 80
+      },
+      "subItems": []
+    },
+    {
+      "id": 25,
+      "srNo": 131,
+      "name": "Butter Pav Bhaji",
+      "categoryId": 1,
+      "subCategoryId": 3,
+      "price": 90,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 90,
+        "2": 90,
+        "3": 100,
+        "4": 90
+      },
+      "subItems": [
+        {
+          "name": "2 Pavs",
+          "qty": "1 pair"
+        },
+        {
+          "name": "Bhaji",
+          "qty": "1 bowl"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "srNo": 132,
+      "name": "Cheese Pav Bhaji",
+      "categoryId": 1,
+      "subCategoryId": 3,
+      "price": 110,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 110,
+        "2": 110,
+        "3": 125,
+        "4": 110
+      },
+      "subItems": []
+    },
+    {
+      "id": 27,
+      "srNo": 133,
+      "name": "Extra Pav (Pair)",
+      "categoryId": 1,
+      "subCategoryId": 3,
+      "price": 25,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 25,
+        "2": 25,
+        "3": 30,
+        "4": 25
+      },
+      "subItems": []
+    },
+    {
+      "id": 28,
+      "srNo": 134,
+      "name": "Special Thali Meal",
+      "categoryId": 1,
+      "subCategoryId": 3,
+      "price": 140,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 140,
+        "2": 140,
+        "3": 160,
+        "4": 140
+      },
+      "subItems": []
+    },
+    {
+      "id": 29,
+      "srNo": 141,
+      "name": "Special Tea",
+      "categoryId": 1,
+      "subCategoryId": 5,
+      "price": 20,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 20,
+        "2": 20,
+        "3": 25,
+        "4": 20
+      },
+      "subItems": []
+    },
+    {
+      "id": 30,
+      "srNo": 142,
+      "name": "Filter Coffee",
+      "categoryId": 1,
+      "subCategoryId": 5,
+      "price": 30,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 30,
+        "2": 30,
+        "3": 35,
+        "4": 30
+      },
+      "subItems": []
+    },
+    {
+      "id": 31,
+      "srNo": 143,
+      "name": "Cold Drink / Lassi",
+      "categoryId": 1,
+      "subCategoryId": 5,
+      "price": 40,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 40,
+        "2": 40,
+        "3": 45,
+        "4": 40
+      },
+      "subItems": []
+    },
+    {
+      "id": 32,
+      "srNo": 144,
+      "name": "Mineral Water (1L)",
+      "categoryId": 1,
+      "subCategoryId": 5,
+      "price": 20,
+      "hasMultiplePrices": false,
+      "variants": [],
+      "sectionPrices": {
+        "1": 20,
+        "2": 20,
+        "3": 20,
+        "4": 20
+      },
+      "subItems": []
+    },
+    {
+      "id": 33,
+      "srNo": 201,
+      "name": "Gulab Jamun",
+      "categoryId": 2,
+      "subCategoryId": 8,
+      "price": 80,
+      "hasMultiplePrices": true,
+      "variants": [
+        {
+          "unit": "250g",
+          "price": 80
+        },
+        {
+          "unit": "500g",
+          "price": 160
+        },
+        {
+          "unit": "1 Kg",
+          "price": 320
+        }
+      ],
+      "sectionPrices": {},
+      "subItems": []
+    },
+    {
+      "id": 34,
+      "srNo": 202,
+      "name": "Kaju Katli",
+      "categoryId": 2,
+      "subCategoryId": 7,
+      "price": 225,
+      "hasMultiplePrices": true,
+      "variants": [
+        {
+          "unit": "250g",
+          "price": 225
+        },
+        {
+          "unit": "500g",
+          "price": 450
+        },
+        {
+          "unit": "1 Kg",
+          "price": 900
+        }
+      ],
+      "sectionPrices": {},
+      "subItems": [],
+      "stockQty": 9,
+      "status": "In Stock"
+    },
+    {
+      "id": 35,
+      "srNo": 203,
+      "name": "Rasgulla",
+      "categoryId": 2,
+      "subCategoryId": 9,
+      "price": 90,
+      "hasMultiplePrices": true,
+      "variants": [
+        {
+          "unit": "250g",
+          "price": 90
+        },
+        {
+          "unit": "500g",
+          "price": 175
+        },
+        {
+          "unit": "1 Kg",
+          "price": 350
+        }
+      ],
+      "sectionPrices": {},
+      "subItems": []
+    },
+    {
+      "id": 36,
+      "srNo": 204,
+      "name": "Motichoor Laddu",
+      "categoryId": 2,
+      "subCategoryId": 10,
+      "price": 75,
+      "hasMultiplePrices": true,
+      "variants": [
+        {
+          "unit": "250g",
+          "price": 75
+        },
+        {
+          "unit": "500g",
+          "price": 150
+        },
+        {
+          "unit": "1 Kg",
+          "price": 300
+        }
+      ],
+      "sectionPrices": {},
+      "subItems": []
+    },
+    {
+      "id": 37,
+      "srNo": 205,
+      "name": "Special Peda",
+      "categoryId": 2,
+      "subCategoryId": 8,
+      "price": 105,
+      "hasMultiplePrices": true,
+      "variants": [
+        {
+          "unit": "250g",
+          "price": 105
+        },
+        {
+          "unit": "500g",
+          "price": 210
+        },
+        {
+          "unit": "1 Kg",
+          "price": 420
+        }
+      ],
+      "sectionPrices": {},
+      "subItems": []
+    },
+    {
+      "id": 38,
+      "srNo": 206,
+      "name": "Kaju Pista Roll",
+      "categoryId": 2,
+      "subCategoryId": 7,
+      "price": 260,
+      "hasMultiplePrices": true,
+      "variants": [
+        {
+          "unit": "250g",
+          "price": 260
+        },
+        {
+          "unit": "500g",
+          "price": 520
+        },
+        {
+          "unit": "1 Kg",
+          "price": 1040
+        }
+      ],
+      "sectionPrices": {},
+      "subItems": [],
+      "status": "In Stock",
+      "stockQty": 5
+    },
+    {
+      "id": 39,
+      "srNo": 207,
+      "name": "Besan Laddu",
+      "categoryId": 2,
+      "subCategoryId": 10,
+      "price": 85,
+      "hasMultiplePrices": true,
+      "variants": [
+        {
+          "unit": "250g",
+          "price": 85
+        },
+        {
+          "unit": "500g",
+          "price": 170
+        },
+        {
+          "unit": "1 Kg",
+          "price": 340
+        }
+      ],
+      "sectionPrices": {},
+      "subItems": []
+    },
+    {
+      "id": 40,
+      "srNo": 208,
+      "name": "Dry Fruit Halwa",
+      "categoryId": 2,
+      "subCategoryId": 11,
+      "price": 150,
+      "hasMultiplePrices": true,
+      "variants": [
+        {
+          "unit": "250g",
+          "price": 150
+        },
+        {
+          "unit": "500g",
+          "price": 300
+        },
+        {
+          "unit": "1 Kg",
+          "price": 600
+        }
+      ],
+      "sectionPrices": {},
+      "subItems": []
+    }
+  ],
+  "diningTables": [
+    {
+      "id": 1,
+      "name": "D1",
+      "sectionId": 1,
+      "status": "occupied",
+      "currentCart": [
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "currentTokenNo": "1001",
+      "isSplit": false,
+      "createdAt": "2026-09-05T11:43:11.361Z",
+      "lastPrintedCart": [],
+      "kotCount": 0,
+      "customerName": "",
+      "pax": "1",
+      "waiter": "Raju"
+    },
+    {
+      "id": 4,
+      "name": "D4",
+      "sectionId": 1,
+      "status": "empty",
+      "currentCart": [],
+      "currentTokenNo": "",
+      "isSplit": false,
+      "createdAt": null,
+      "lastPrintedCart": [],
+      "kotCount": 0,
+      "customerName": "",
+      "pax": "1",
+      "waiter": "Raju"
+    },
+    {
+      "id": 5,
+      "name": "D5",
+      "sectionId": 1,
+      "status": "occupied",
+      "currentCart": [
+        {
+          "id": 6,
+          "srNo": 106,
+          "name": "Idli",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "2 Idlis",
+              "qty": "1 plate"
+            },
+            {
+              "name": "Sambar & Chutney",
+              "qty": "1"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "currentTokenNo": "1005",
+      "isSplit": false,
+      "createdAt": "2026-09-05T12:18:44.465Z",
+      "lastPrintedCart": [],
+      "kotCount": 0,
+      "customerName": "",
+      "pax": "1",
+      "waiter": "Raju"
+    },
+    {
+      "id": 6,
+      "name": "D6",
+      "sectionId": 1,
+      "status": "empty",
+      "currentCart": [],
+      "currentTokenNo": "",
+      "isSplit": false,
+      "createdAt": null,
+      "lastPrintedCart": [],
+      "kotCount": 0,
+      "customerName": "",
+      "pax": "1",
+      "waiter": "Raju"
+    },
+    {
+      "id": 8,
+      "name": "D8",
+      "sectionId": 1,
+      "status": "occupied",
+      "currentCart": [
+        {
+          "id": 7,
+          "srNo": 107,
+          "name": "Vada Sambar",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "2 Vadas",
+              "qty": "1 plate"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 8,
+          "srNo": 108,
+          "name": "Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "1 Idli 1 Vada",
+              "qty": "1 plate"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "currentTokenNo": "1008",
+      "isSplit": false,
+      "createdAt": "2026-09-05T10:32:55.392Z"
+    },
+    {
+      "id": 2,
+      "name": "D2",
+      "sectionId": 1,
+      "status": "empty",
+      "currentCart": [],
+      "currentTokenNo": "",
+      "isSplit": false,
+      "createdAt": null,
+      "lastPrintedCart": [],
+      "kotCount": 0,
+      "customerName": "",
+      "pax": "1",
+      "waiter": "Raju",
+      "parentTable": null
+    },
+    {
+      "id": 3,
+      "name": "D3",
+      "sectionId": 1,
+      "status": "empty",
+      "currentCart": [],
+      "currentTokenNo": "",
+      "isSplit": false,
+      "createdAt": null,
+      "lastPrintedCart": [],
+      "kotCount": 0,
+      "customerName": "",
+      "pax": "1",
+      "waiter": "Raju",
+      "parentTable": null
+    },
+    {
+      "id": 7,
+      "name": "D7",
+      "sectionId": 1,
+      "status": "empty",
+      "currentCart": [],
+      "currentTokenNo": "",
+      "isSplit": false,
+      "createdAt": null,
+      "lastPrintedCart": [],
+      "kotCount": 0,
+      "customerName": "",
+      "pax": "1",
+      "waiter": "Raju"
+    },
+    {
+      "id": 9,
+      "name": "F1",
+      "sectionId": 2,
+      "status": "occupied",
+      "currentCart": [
+        {
+          "id": 8,
+          "srNo": 108,
+          "name": "Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "1 Idli 1 Vada",
+              "qty": "1 plate"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "currentTokenNo": "",
+      "isSplit": false,
+      "createdAt": "2026-09-05T10:33:02.676Z",
+      "lastPrintedCart": [],
+      "kotCount": 0,
+      "customerName": "",
+      "pax": "1",
+      "waiter": "Raju"
+    },
+    {
+      "id": 10,
+      "name": "F2",
+      "sectionId": 2,
+      "status": "occupied",
+      "currentCart": [
+        {
+          "id": 7,
+          "srNo": 107,
+          "name": "Vada Sambar",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "2 Vadas",
+              "qty": "1 plate"
+            }
+          ],
+          "cartItemId": "cart-7-1787895973484-fv6z",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 8,
+          "srNo": 108,
+          "name": "Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "1 Idli 1 Vada",
+              "qty": "1 plate"
+            }
+          ],
+          "cartItemId": "cart-8-1787895974443-q870",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 1,
+          "srNo": 101,
+          "name": "Single Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "Chutney",
+              "qty": "1"
+            },
+            {
+              "name": "Sambar",
+              "qty": "1"
+            }
+          ],
+          "stockQty": 19,
+          "status": "In Stock",
+          "cartItemId": "cart-1-1787895975718-59n3",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1787895976491-ywc4",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "currentTokenNo": "1010",
+      "isSplit": false,
+      "createdAt": "2026-08-28T05:46:17.525Z",
+      "lastPrintedCart": [],
+      "kotCount": 0,
+      "customerName": "",
+      "pax": "1",
+      "waiter": "Raju"
+    },
+    {
+      "id": 11,
+      "name": "F3",
+      "sectionId": 2,
+      "status": "empty",
+      "currentCart": [],
+      "currentTokenNo": "",
+      "isSplit": false,
+      "createdAt": null,
+      "lastPrintedCart": [],
+      "kotCount": 0,
+      "customerName": "",
+      "pax": "1",
+      "waiter": "Raju"
+    },
+    {
+      "id": 12,
+      "name": "F4",
+      "sectionId": 2,
+      "status": "empty",
+      "currentCart": [],
+      "currentTokenNo": "",
+      "isSplit": false,
+      "createdAt": null,
+      "lastPrintedCart": [],
+      "kotCount": 0,
+      "customerName": "",
+      "pax": "1",
+      "waiter": "Raju"
+    },
+    {
+      "id": 13,
+      "name": "F5",
+      "sectionId": 2,
+      "status": "empty",
+      "currentCart": [],
+      "currentTokenNo": "",
+      "isSplit": false,
+      "createdAt": null,
+      "lastPrintedCart": [],
+      "kotCount": 0,
+      "customerName": "",
+      "pax": "1",
+      "waiter": "Raju"
+    },
+    {
+      "id": 14,
+      "name": "F6",
+      "sectionId": 2,
+      "status": "empty",
+      "currentCart": [],
+      "currentTokenNo": "",
+      "isSplit": false,
+      "createdAt": null,
+      "lastPrintedCart": [],
+      "kotCount": 0,
+      "customerName": "",
+      "pax": "1",
+      "waiter": "Raju"
+    },
+    {
+      "id": 15,
+      "name": "AC1",
+      "sectionId": 3,
+      "status": "occupied",
+      "currentCart": [
+        {
+          "id": 7,
+          "srNo": 107,
+          "name": "Vada Sambar",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 70,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "2 Vadas",
+              "qty": "1 plate"
+            }
+          ],
+          "cartItemId": "cart-7-1787896123245-auvk",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 8,
+          "srNo": 108,
+          "name": "Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 70,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "1 Idli 1 Vada",
+              "qty": "1 plate"
+            }
+          ],
+          "cartItemId": "cart-8-1787896123979-1we9",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 9,
+          "srNo": 109,
+          "name": "Shabu Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 80,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 70,
+            "2": 70,
+            "3": 80,
+            "4": 70
+          },
+          "subItems": [],
+          "stockQty": 20,
+          "status": "In Stock",
+          "cartItemId": "cart-9-1787896124779-08hc",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "currentTokenNo": "1015",
+      "isSplit": false,
+      "createdAt": "2026-08-28T05:48:45.595Z"
+    },
+    {
+      "id": 16,
+      "name": "AC2",
+      "sectionId": 3,
+      "status": "occupied",
+      "currentCart": [
+        {
+          "id": 10,
+          "srNo": 110,
+          "name": "Shabu Khichdi",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 70,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "Curd",
+              "qty": "1 bowl"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 11,
+          "srNo": 111,
+          "name": "Dahi Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 80,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 70,
+            "2": 70,
+            "3": 80,
+            "4": 70
+          },
+          "subItems": [],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "currentTokenNo": "1016",
+      "isSplit": false,
+      "createdAt": "2026-09-05T11:00:34.731Z",
+      "lastPrintedCart": [],
+      "kotCount": 0,
+      "customerName": "",
+      "pax": "1",
+      "waiter": "Raju"
+    },
+    {
+      "id": 17,
+      "name": "AC3",
+      "sectionId": 3,
+      "status": "occupied",
+      "currentCart": [
+        {
+          "id": 15,
+          "srNo": 115,
+          "name": "Dhokla",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 55,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "cartItemId": "cart-15-1787896033440-7mnd",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 16,
+          "srNo": 116,
+          "name": "Bhaji (Pakoda)",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-16-1787896034194-czhy",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "currentTokenNo": "1017",
+      "isSplit": false,
+      "createdAt": "2026-08-28T05:47:15.160Z"
+    },
+    {
+      "id": 18,
+      "name": "AC4",
+      "sectionId": 3,
+      "status": "occupied",
+      "currentCart": [
+        {
+          "id": 16,
+          "srNo": 116,
+          "name": "Bhaji (Pakoda)",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-16-1787896317737-v1c5",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 16,
+          "srNo": 116,
+          "name": "Bhaji (Pakoda)",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-16-1787896317965-2cl4",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 15,
+          "srNo": 115,
+          "name": "Dhokla",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 55,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "cartItemId": "cart-15-1787896318773-3qxs",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "currentTokenNo": "1018",
+      "isSplit": false,
+      "createdAt": "2026-08-28T05:51:59.716Z"
+    },
+    {
+      "id": 19,
+      "name": "AC5",
+      "sectionId": 3,
+      "status": "occupied",
+      "currentCart": [
+        {
+          "id": 10,
+          "srNo": 110,
+          "name": "Shabu Khichdi",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 70,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "Curd",
+              "qty": "1 bowl"
+            }
+          ],
+          "cartItemId": "cart-10-1787896322981-rf9u",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 11,
+          "srNo": 111,
+          "name": "Dahi Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 80,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 70,
+            "2": 70,
+            "3": 80,
+            "4": 70
+          },
+          "subItems": [],
+          "cartItemId": "cart-11-1787896323923-1qmh",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "currentTokenNo": "1019",
+      "isSplit": false,
+      "createdAt": "2026-08-28T05:52:05.064Z"
+    },
+    {
+      "id": 20,
+      "name": "P1",
+      "sectionId": 4,
+      "status": "occupied",
+      "currentCart": [
+        {
+          "id": 8,
+          "srNo": 108,
+          "name": "Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "1 Idli 1 Vada",
+              "qty": "1 plate"
+            }
+          ],
+          "cartItemId": "cart-8-1787896357237-ck91",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 9,
+          "srNo": 109,
+          "name": "Shabu Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 70,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 70,
+            "2": 70,
+            "3": 80,
+            "4": 70
+          },
+          "subItems": [],
+          "stockQty": 20,
+          "status": "In Stock",
+          "cartItemId": "cart-9-1787896358647-yac2",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 10,
+          "srNo": 110,
+          "name": "Shabu Khichdi",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "Curd",
+              "qty": "1 bowl"
+            }
+          ],
+          "cartItemId": "cart-10-1787896359580-occt",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "currentTokenNo": "1020",
+      "isSplit": false,
+      "createdAt": "2026-08-28T05:52:43.379Z"
+    },
+    {
+      "id": 21,
+      "name": "P2",
+      "sectionId": 4,
+      "status": "empty",
+      "currentCart": [],
+      "currentTokenNo": "",
+      "isSplit": false,
+      "createdAt": null
+    },
+    {
+      "id": 22,
+      "name": "P3",
+      "sectionId": 4,
+      "status": "empty",
+      "currentCart": [],
+      "currentTokenNo": "",
+      "isSplit": false,
+      "createdAt": "2026-09-05T11:47:41.315Z",
+      "lastPrintedCart": [],
+      "kotCount": 0,
+      "customerName": "",
+      "pax": "1",
+      "waiter": "Raju"
+    },
+    {
+      "id": 23,
+      "name": "P4",
+      "sectionId": 4,
+      "status": "occupied",
+      "currentCart": [
+        {
+          "id": 22,
+          "srNo": 124,
+          "name": "Cheese Masala Dosa",
+          "categoryId": 1,
+          "subCategoryId": 2,
+          "price": 95,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 95,
+            "2": 95,
+            "3": 105,
+            "4": 95
+          },
+          "subItems": [],
+          "cartItemId": "cart-22-1787896051007-fhhg",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 22,
+          "srNo": 124,
+          "name": "Cheese Masala Dosa",
+          "categoryId": 1,
+          "subCategoryId": 2,
+          "price": 95,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 95,
+            "2": 95,
+            "3": 105,
+            "4": 95
+          },
+          "subItems": [],
+          "cartItemId": "cart-22-1787896051223-cleg",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 16,
+          "srNo": 116,
+          "name": "Bhaji (Pakoda)",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-16-1787896052173-iupe",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 15,
+          "srNo": 115,
+          "name": "Dhokla",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "cartItemId": "cart-15-1787896052956-dta8",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "currentTokenNo": "1023",
+      "isSplit": false,
+      "createdAt": "2026-08-28T05:47:33.786Z"
+    }
+  ],
+  "bills": [
+    {
+      "tokenNo": "9910",
+      "tableNo": "D2",
+      "items": [
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "unit": "1",
+          "qty": 2,
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 100,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 100,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 100,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T05:35:50.349Z",
+      "id": 1
+    },
+    {
+      "tokenNo": "6086",
+      "tableNo": "D1-B",
+      "items": [
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "unit": "1",
+          "qty": 4,
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 140,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 140,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 140,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T05:36:02.711Z",
+      "id": 2
+    },
+    {
+      "tokenNo": "9477",
+      "tableNo": "D1-A",
+      "items": [
+        {
+          "id": 6,
+          "srNo": 106,
+          "name": "Idli",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "2 Idlis",
+              "qty": "1 plate"
+            },
+            {
+              "name": "Sambar & Chutney",
+              "qty": "1"
+            }
+          ],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 50,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 50,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 50,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T05:36:12.780Z",
+      "id": 3
+    },
+    {
+      "tokenNo": "6423",
+      "tableNo": "D3",
+      "items": [
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 35,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 35,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 35,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T05:36:25.290Z",
+      "id": 4
+    },
+    {
+      "tokenNo": "4336",
+      "tableNo": "D4",
+      "items": [
+        {
+          "id": 10,
+          "srNo": 110,
+          "name": "Shabu Khichdi",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "Curd",
+              "qty": "1 bowl"
+            }
+          ],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 60,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 60,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 60,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T05:36:44.036Z",
+      "id": 5
+    },
+    {
+      "tokenNo": "2900",
+      "tableNo": "D5",
+      "items": [
+        {
+          "id": 6,
+          "srNo": 106,
+          "name": "Idli",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "2 Idlis",
+              "qty": "1 plate"
+            },
+            {
+              "name": "Sambar & Chutney",
+              "qty": "1"
+            }
+          ],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 50,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 50,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 50,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T05:37:01.240Z",
+      "id": 6
+    },
+    {
+      "tokenNo": "5038",
+      "tableNo": "D4-B",
+      "items": [
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "unit": "1",
+          "qty": 2,
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 4,
+          "srNo": 104,
+          "name": "Sheera",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 5,
+          "srNo": 105,
+          "name": "Puri Bhaji",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 75,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 75,
+            "2": 75,
+            "3": 85,
+            "4": 75
+          },
+          "subItems": [
+            {
+              "name": "4 Puris",
+              "qty": "1 portion"
+            },
+            {
+              "name": "Potato Bhaji",
+              "qty": "1 bowl"
+            }
+          ],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 240,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 240,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Online",
+        "cash": 0,
+        "online": 240,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T09:10:53.971Z",
+      "id": 7
+    },
+    {
+      "tokenNo": "3771",
+      "tableNo": "D4-A",
+      "items": [
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 50,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 50,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Card",
+        "cash": 0,
+        "online": 0,
+        "card": 50
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T09:11:12.156Z",
+      "id": 8
+    },
+    {
+      "tokenNo": "8183",
+      "tableNo": "F2",
+      "items": [
+        {
+          "id": 7,
+          "srNo": 107,
+          "name": "Vada Sambar",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "2 Vadas",
+              "qty": "1 plate"
+            }
+          ],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 8,
+          "srNo": 108,
+          "name": "Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "1 Idli 1 Vada",
+              "qty": "1 plate"
+            }
+          ],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 120,
+      "sectionName": "First Floor",
+      "sectionExtraCharge": 0,
+      "total": 120,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Split",
+        "cash": 20,
+        "online": 100,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T09:11:42.356Z",
+      "id": 9
+    },
+    {
+      "tokenNo": "8326",
+      "tableNo": "AC2",
+      "items": [
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "unit": "1",
+          "qty": 3,
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 15,
+          "srNo": 115,
+          "name": "Dhokla",
+          "price": 45,
+          "qty": 1
+        }
+      ],
+      "subtotal": 180,
+      "sectionName": "AC Hall",
+      "sectionExtraCharge": 0,
+      "total": 180,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Card",
+        "cash": 0,
+        "online": 0,
+        "card": 45
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T09:12:02.152Z",
+      "id": 10
+    },
+    {
+      "tokenNo": "6623",
+      "tableNo": "D2-B",
+      "items": [
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 50,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 50,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 50,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T10:27:52.012Z",
+      "id": 11
+    },
+    {
+      "tokenNo": "9865",
+      "tableNo": "D2-A",
+      "items": [
+        {
+          "id": 11,
+          "srNo": 111,
+          "name": "Dahi Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 70,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 70,
+            "2": 70,
+            "3": 80,
+            "4": 70
+          },
+          "subItems": [],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 70,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 70,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 70,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T10:28:04.899Z",
+      "id": 12
+    },
+    {
+      "tokenNo": "6996",
+      "tableNo": "D2-B",
+      "items": [
+        {
+          "id": 1,
+          "srNo": 101,
+          "name": "Single Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "Chutney",
+              "qty": "1"
+            },
+            {
+              "name": "Sambar",
+              "qty": "1"
+            }
+          ],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 100,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 100,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 100,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T10:49:38.536Z",
+      "id": 13
+    },
+    {
+      "tokenNo": "5425",
+      "tableNo": "D3-B",
+      "items": [
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 85,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 85,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 85,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T10:49:54.024Z",
+      "id": 14
+    },
+    {
+      "tokenNo": "2595",
+      "tableNo": "D5-A",
+      "items": [
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 35,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 35,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 35,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T10:53:12.241Z",
+      "id": 15
+    },
+    {
+      "tokenNo": "4853",
+      "tableNo": "D3-A",
+      "items": [
+        {
+          "id": 17,
+          "srNo": 117,
+          "name": "Pakoda",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 50,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 50,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 50,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T10:53:23.782Z",
+      "id": 16
+    },
+    {
+      "tokenNo": "2473",
+      "tableNo": "D2",
+      "items": [
+        {
+          "id": 7,
+          "srNo": 107,
+          "name": "Vada Sambar",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "2 Vadas",
+              "qty": "1 plate"
+            }
+          ],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 60,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 60,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 60,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T10:53:45.265Z",
+      "id": 17
+    },
+    {
+      "tokenNo": "8676",
+      "tableNo": "D5",
+      "items": [
+        {
+          "id": 10,
+          "srNo": 110,
+          "name": "Shabu Khichdi",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "Curd",
+              "qty": "1 bowl"
+            }
+          ],
+          "unit": "1",
+          "qty": 1,
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 60,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 60,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 60,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T10:53:53.466Z",
+      "id": 18
+    },
+    {
+      "tokenNo": "6043",
+      "tableNo": "AC2",
+      "items": [
+        {
+          "id": 7,
+          "srNo": 107,
+          "name": "Vada Sambar",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 70,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "2 Vadas",
+              "qty": "1 plate"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 8,
+          "srNo": 108,
+          "name": "Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 70,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "1 Idli 1 Vada",
+              "qty": "1 plate"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 140,
+      "sectionName": "AC Hall",
+      "sectionExtraCharge": 0,
+      "total": 140,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 140,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T12:00:19.647Z",
+      "id": 19
+    },
+    {
+      "tokenNo": "7440",
+      "tableNo": "F2",
+      "items": [
+        {
+          "id": 1,
+          "srNo": 101,
+          "name": "Single Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "Chutney",
+              "qty": "1"
+            },
+            {
+              "name": "Sambar",
+              "qty": "1"
+            }
+          ],
+          "stockQty": 120,
+          "status": "In Stock",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 7,
+          "srNo": 107,
+          "name": "Vada Sambar",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "2 Vadas",
+              "qty": "1 plate"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 110,
+      "sectionName": "First Floor",
+      "sectionExtraCharge": 0,
+      "total": 110,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 110,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T12:00:29.120Z",
+      "id": 20
+    },
+    {
+      "tokenNo": "8490",
+      "tableNo": "D3",
+      "items": [
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 85,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 85,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 85,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T12:00:38.183Z",
+      "id": 21
+    },
+    {
+      "tableId": 6,
+      "tokenNo": "7719",
+      "tableNo": "D6-A",
+      "items": [
+        {
+          "id": 4,
+          "srNo": 104,
+          "name": "Sheera",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "stockQty": 10,
+          "status": "In Stock",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 80,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 80,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 80,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T16:49:16.130Z",
+      "id": 22
+    },
+    {
+      "tableId": 27,
+      "tokenNo": "1956",
+      "tableNo": "D6-B",
+      "items": [
+        {
+          "id": 4,
+          "srNo": 104,
+          "name": "Sheera",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "stockQty": 10,
+          "status": "In Stock",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 45,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 45,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 45,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T16:49:31.953Z",
+      "id": 23
+    },
+    {
+      "tableId": 27,
+      "tokenNo": "1152",
+      "tableNo": "D6",
+      "items": [
+        {
+          "id": 35,
+          "srNo": 203,
+          "name": "Rasgulla",
+          "categoryId": 2,
+          "subCategoryId": 9,
+          "price": 400,
+          "hasMultiplePrices": true,
+          "variants": [
+            {
+              "unit": "250g",
+              "price": 90
+            },
+            {
+              "unit": "500g",
+              "price": 175
+            },
+            {
+              "unit": "1 Kg",
+              "price": 350
+            }
+          ],
+          "sectionPrices": {},
+          "subItems": [],
+          "unit": "1 Kg",
+          "weightKg": 1,
+          "qty": 1,
+          "qtyDisplay": "1 Kg"
+        },
+        {
+          "id": 36,
+          "srNo": 204,
+          "name": "Motichoor Laddu",
+          "categoryId": 2,
+          "subCategoryId": 10,
+          "price": 20,
+          "hasMultiplePrices": true,
+          "variants": [
+            {
+              "unit": "250g",
+              "price": 75
+            },
+            {
+              "unit": "500g",
+              "price": 150
+            },
+            {
+              "unit": "1 Kg",
+              "price": 300
+            }
+          ],
+          "sectionPrices": {},
+          "subItems": [],
+          "unit": "0.25 Kg",
+          "weightKg": 0.25,
+          "qty": 1,
+          "qtyDisplay": "0.25 Kg"
+        }
+      ],
+      "subtotal": 420,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 420,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 420,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T16:51:11.356Z",
+      "id": 24
+    },
+    {
+      "tableId": 27,
+      "tokenNo": "5228",
+      "tableNo": "D6-A",
+      "items": [
+        {
+          "id": 6,
+          "srNo": 106,
+          "name": "Idli",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "2 Idlis",
+              "qty": "1 plate"
+            },
+            {
+              "name": "Sambar & Chutney",
+              "qty": "1"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 5,
+          "srNo": 105,
+          "name": "Puri Bhaji",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 75,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 75,
+            "2": 75,
+            "3": 85,
+            "4": 75
+          },
+          "subItems": [
+            {
+              "name": "4 Puris",
+              "qty": "1 portion"
+            },
+            {
+              "name": "Potato Bhaji",
+              "qty": "1 bowl"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 4,
+          "srNo": 104,
+          "name": "Sheera",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "stockQty": 8,
+          "status": "In Stock",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 205,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 205,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 205,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T16:55:24.130Z",
+      "id": 25
+    },
+    {
+      "tableId": 28,
+      "tokenNo": "8989",
+      "tableNo": "D6",
+      "items": [
+        {
+          "id": 4,
+          "srNo": 104,
+          "name": "Sheera",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "stockQty": 7,
+          "status": "In Stock",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 5,
+          "srNo": 105,
+          "name": "Puri Bhaji",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 75,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 75,
+            "2": 75,
+            "3": 85,
+            "4": 75
+          },
+          "subItems": [
+            {
+              "name": "4 Puris",
+              "qty": "1 portion"
+            },
+            {
+              "name": "Potato Bhaji",
+              "qty": "1 bowl"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 10,
+          "srNo": 110,
+          "name": "Shabu Khichdi",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "Curd",
+              "qty": "1 bowl"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 215,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 215,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 215,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T17:06:03.235Z",
+      "id": 26
+    },
+    {
+      "tableId": 26,
+      "tokenNo": "9050",
+      "tableNo": "D5",
+      "items": [
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 1,
+          "srNo": 101,
+          "name": "Single Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "Chutney",
+              "qty": "1"
+            },
+            {
+              "name": "Sambar",
+              "qty": "1"
+            }
+          ],
+          "stockQty": 120,
+          "status": "In Stock",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 9,
+          "srNo": 109,
+          "name": "Shabu Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 70,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 70,
+            "2": 70,
+            "3": 80,
+            "4": 70
+          },
+          "subItems": [],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 8,
+          "srNo": 108,
+          "name": "Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "1 Idli 1 Vada",
+              "qty": "1 plate"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 265,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 265,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 265,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T17:34:46.429Z",
+      "id": 27
+    },
+    {
+      "tableId": 26,
+      "tokenNo": "1994",
+      "tableNo": "D5",
+      "items": [
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "cartItemId": "cart-3-1787858871165-8jrg",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1787858872098-gjjz",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 1,
+          "srNo": 101,
+          "name": "Single Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "Chutney",
+              "qty": "1"
+            },
+            {
+              "name": "Sambar",
+              "qty": "1"
+            }
+          ],
+          "stockQty": 21,
+          "status": "In Stock",
+          "cartItemId": "cart-1-1787858876730-rrqz",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 135,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 135,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 135,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T19:28:21.103Z",
+      "id": 28
+    },
+    {
+      "tableId": 3,
+      "tokenNo": "2328",
+      "tableNo": "D3",
+      "items": [
+        {
+          "id": 1,
+          "srNo": 101,
+          "name": "Single Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "Chutney",
+              "qty": "1"
+            },
+            {
+              "name": "Sambar",
+              "qty": "1"
+            }
+          ],
+          "stockQty": 119,
+          "status": "In Stock",
+          "cartItemId": "cart-1-1787857686491-xacr",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1787857687646-kfib",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "cartItemId": "cart-3-1787857688421-xt7k",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 4,
+          "srNo": 104,
+          "name": "Sheera",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "stockQty": 6,
+          "status": "In Stock",
+          "cartItemId": "cart-4-1787857716779-bac7",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 5,
+          "srNo": 105,
+          "name": "Puri Bhaji",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 75,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 75,
+            "2": 75,
+            "3": 85,
+            "4": 75
+          },
+          "subItems": [
+            {
+              "name": "4 Puris",
+              "qty": "1 portion"
+            },
+            {
+              "name": "Potato Bhaji",
+              "qty": "1 bowl"
+            }
+          ],
+          "cartItemId": "cart-5-1787857718664-wz1d",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 6,
+          "srNo": 106,
+          "name": "Idli",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "2 Idlis",
+              "qty": "1 plate"
+            },
+            {
+              "name": "Sambar & Chutney",
+              "qty": "1"
+            }
+          ],
+          "cartItemId": "cart-6-1787857719547-qwde",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 305,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 305,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 305,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-27T19:28:46.312Z",
+      "id": 29
+    },
+    {
+      "tableId": 10,
+      "tokenNo": "8594",
+      "tableNo": "F2",
+      "items": [
+        {
+          "id": 7,
+          "srNo": 107,
+          "name": "Vada Sambar",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "2 Vadas",
+              "qty": "1 plate"
+            }
+          ],
+          "cartItemId": "cart-7-1787893289003-n2wn",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 8,
+          "srNo": 108,
+          "name": "Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "1 Idli 1 Vada",
+              "qty": "1 plate"
+            }
+          ],
+          "cartItemId": "cart-8-1787893290627-1ms6",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 120,
+      "sectionName": "First Floor",
+      "sectionExtraCharge": 0,
+      "total": 120,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 120,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-28T05:01:57.789Z",
+      "id": 30
+    },
+    {
+      "tableId": 26,
+      "tokenNo": "3380",
+      "tableNo": "D5",
+      "items": [
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1787895094547-etlw",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "cartItemId": "cart-3-1787895095387-dgp4",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 85,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 85,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 85,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-28T05:31:39.882Z",
+      "id": 31
+    },
+    {
+      "tableId": 26,
+      "tokenNo": "8180",
+      "tableNo": "D5",
+      "items": [
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1787895261522-axb2",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "cartItemId": "cart-3-1787895262360-uxgw",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 1,
+          "srNo": 101,
+          "name": "Single Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "Chutney",
+              "qty": "1"
+            },
+            {
+              "name": "Sambar",
+              "qty": "1"
+            }
+          ],
+          "stockQty": 19,
+          "status": "In Stock",
+          "cartItemId": "cart-1-1787895497553-loul",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 135,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 135,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 135,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-28T05:44:28.104Z",
+      "id": 32
+    },
+    {
+      "tableId": 3,
+      "tokenNo": "8787",
+      "tableNo": "D3",
+      "items": [
+        {
+          "id": 1,
+          "srNo": 101,
+          "name": "Single Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "Chutney",
+              "qty": "1"
+            },
+            {
+              "name": "Sambar",
+              "qty": "1"
+            }
+          ],
+          "stockQty": 19,
+          "status": "In Stock",
+          "cartItemId": "cart-1-1787895503476-ma61",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1787895504372-vfw2",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 100,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 100,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 100,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-28T05:44:33.730Z",
+      "id": 33
+    },
+    {
+      "tableId": 3,
+      "tokenNo": "1003",
+      "tableNo": "D3",
+      "items": [
+        {
+          "id": 1,
+          "srNo": 101,
+          "name": "Single Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "Chutney",
+              "qty": "1"
+            },
+            {
+              "name": "Sambar",
+              "qty": "1"
+            }
+          ],
+          "stockQty": 19,
+          "status": "In Stock",
+          "cartItemId": "cart-1-1787895903360-mcsr",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1787895904201-3ehv",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "cartItemId": "cart-3-1787895905134-0g7l",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 135,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 135,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 135,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-28T05:45:38.813Z",
+      "id": 34
+    },
+    {
+      "tableId": 26,
+      "tokenNo": "1026",
+      "tableNo": "D5",
+      "items": [
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "cartItemId": "cart-3-1787895942239-8z0f",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 4,
+          "srNo": 104,
+          "name": "Sheera",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "stockQty": 5,
+          "status": "In Stock",
+          "cartItemId": "cart-4-1787895943117-t5as",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 5,
+          "srNo": 105,
+          "name": "Puri Bhaji",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 75,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 75,
+            "2": 75,
+            "3": 85,
+            "4": 75
+          },
+          "subItems": [
+            {
+              "name": "4 Puris",
+              "qty": "1 portion"
+            },
+            {
+              "name": "Potato Bhaji",
+              "qty": "1 bowl"
+            }
+          ],
+          "cartItemId": "cart-5-1787895943975-rffs",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 155,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 155,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 155,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-28T05:45:49.985Z",
+      "id": 35
+    },
+    {
+      "tableId": 7,
+      "tokenNo": "1007",
+      "tableNo": "D7",
+      "items": [
+        {
+          "id": 4,
+          "srNo": 104,
+          "name": "Sheera",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "stockQty": 5,
+          "status": "In Stock",
+          "cartItemId": "cart-4-1787896064803-05lf",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "cartItemId": "cart-3-1787896065694-x70c",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1787896066752-hkt0",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 130,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 130,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 130,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-28T05:48:12.553Z",
+      "id": 36
+    },
+    {
+      "tableId": 9,
+      "tokenNo": "1009",
+      "tableNo": "F1",
+      "items": [
+        {
+          "id": 7,
+          "srNo": 107,
+          "name": "Vada Sambar",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "2 Vadas",
+              "qty": "1 plate"
+            }
+          ],
+          "cartItemId": "cart-7-1787895981033-b1sw",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 1,
+          "srNo": 101,
+          "name": "Single Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "Chutney",
+              "qty": "1"
+            },
+            {
+              "name": "Sambar",
+              "qty": "1"
+            }
+          ],
+          "stockQty": 19,
+          "status": "In Stock",
+          "cartItemId": "cart-1-1787895981907-js0p",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1787895982682-tqe0",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 8,
+          "srNo": 108,
+          "name": "Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "1 Idli 1 Vada",
+              "qty": "1 plate"
+            }
+          ],
+          "cartItemId": "cart-8-1787895983507-u6jp",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 220,
+      "sectionName": "First Floor",
+      "sectionExtraCharge": 0,
+      "total": 220,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 220,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-28T05:48:35.692Z",
+      "id": 37
+    },
+    {
+      "tableId": 7,
+      "tokenNo": "1007",
+      "tableNo": "D7",
+      "items": [
+        {
+          "id": 5,
+          "srNo": 105,
+          "name": "Puri Bhaji",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 75,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 75,
+            "2": 75,
+            "3": 85,
+            "4": 75
+          },
+          "subItems": [
+            {
+              "name": "4 Puris",
+              "qty": "1 portion"
+            },
+            {
+              "name": "Potato Bhaji",
+              "qty": "1 bowl"
+            }
+          ],
+          "cartItemId": "cart-5-1787896140267-x0dg",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 6,
+          "srNo": 106,
+          "name": "Idli",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "2 Idlis",
+              "qty": "1 plate"
+            },
+            {
+              "name": "Sambar & Chutney",
+              "qty": "1"
+            }
+          ],
+          "cartItemId": "cart-6-1787896141001-328d",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 125,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 125,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 125,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-28T05:49:17.943Z",
+      "id": 38
+    },
+    {
+      "tableId": 28,
+      "tokenNo": "1028",
+      "tableNo": "D6",
+      "items": [
+        {
+          "id": 4,
+          "srNo": 104,
+          "name": "Sheera",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "stockQty": 5,
+          "status": "In Stock",
+          "cartItemId": "cart-4-1787896160587-1dl7",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "cartItemId": "cart-3-1787896161996-dnds",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 80,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 80,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 80,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-28T05:49:26.405Z",
+      "id": 39
+    },
+    {
+      "tableId": 3,
+      "tokenNo": "1003",
+      "tableNo": "D3",
+      "items": [
+        {
+          "id": 1,
+          "srNo": 101,
+          "name": "Single Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "Chutney",
+              "qty": "1"
+            },
+            {
+              "name": "Sambar",
+              "qty": "1"
+            }
+          ],
+          "stockQty": 19,
+          "status": "In Stock",
+          "cartItemId": "cart-1-1787895958260-qi7m",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1787895959037-40tf",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 8,
+          "srNo": 108,
+          "name": "Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "1 Idli 1 Vada",
+              "qty": "1 plate"
+            }
+          ],
+          "cartItemId": "cart-8-1787895959912-5gpx",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 160,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 160,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 160,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-28T05:49:30.146Z",
+      "id": 40
+    },
+    {
+      "tableId": 2,
+      "tokenNo": "1002",
+      "tableNo": "D2",
+      "items": [
+        {
+          "id": 1,
+          "srNo": 101,
+          "name": "Single Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "Chutney",
+              "qty": "1"
+            },
+            {
+              "name": "Sambar",
+              "qty": "1"
+            }
+          ],
+          "stockQty": 19,
+          "status": "In Stock",
+          "cartItemId": "cart-1-1787895879866-de3f",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1787895880732-qgx7",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "cartItemId": "cart-3-1787895881532-9vud",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 135,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 135,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 135,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-28T05:49:32.912Z",
+      "id": 41
+    },
+    {
+      "tableId": 1,
+      "tokenNo": "1001",
+      "tableNo": "D1",
+      "items": [
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "cartItemId": "cart-3-1788184300986-esw3",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 4,
+          "srNo": 104,
+          "name": "Sheera",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "stockQty": 2,
+          "status": "In Stock",
+          "cartItemId": "cart-4-1788184310551-e9jb",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 80,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 80,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 80,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-31T13:52:11.124Z",
+      "id": 42
+    },
+    {
+      "tableId": 22,
+      "tokenNo": "1022",
+      "tableNo": "P3",
+      "items": [
+        {
+          "id": 1,
+          "srNo": 101,
+          "name": "Single Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "Chutney",
+              "qty": "1"
+            },
+            {
+              "name": "Sambar",
+              "qty": "1"
+            }
+          ],
+          "stockQty": 13,
+          "status": "In Stock",
+          "cartItemId": "cart-1-1788184359302-fl6n",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1788184360038-rnwd",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 100,
+      "sectionName": "Parcels Counter",
+      "sectionExtraCharge": 0,
+      "total": 100,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 100,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-31T13:52:49.920Z",
+      "id": 43
+    },
+    {
+      "tableId": 3,
+      "tokenNo": "1003",
+      "tableNo": "D3",
+      "items": [
+        {
+          "id": 1,
+          "srNo": 101,
+          "name": "Single Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "Chutney",
+              "qty": "1"
+            },
+            {
+              "name": "Sambar",
+              "qty": "1"
+            }
+          ],
+          "stockQty": 19,
+          "status": "In Stock",
+          "cartItemId": "cart-1-1787896301894-k1bn",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1787896302769-20gg",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "cartItemId": "cart-3-1787896303702-pe2a",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 135,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 135,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 135,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-31T14:00:00.850Z",
+      "id": 44
+    },
+    {
+      "tableId": 3,
+      "tokenNo": "1003",
+      "tableNo": "D3",
+      "items": [
+        {
+          "id": 1,
+          "srNo": 101,
+          "name": "Single Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "Chutney",
+              "qty": "1"
+            },
+            {
+              "name": "Sambar",
+              "qty": "1"
+            }
+          ],
+          "stockQty": 11,
+          "status": "In Stock",
+          "cartItemId": "cart-1-1788185390803-kwli",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1788185391528-4zgr",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 21,
+          "srNo": 123,
+          "name": "Mysore Masala Dosa",
+          "categoryId": 1,
+          "subCategoryId": 2,
+          "price": 85,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 85,
+            "2": 85,
+            "3": 95,
+            "4": 85
+          },
+          "subItems": [],
+          "cartItemId": "cart-21-1788185396609-1msn",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 20,
+          "srNo": 122,
+          "name": "Masala Dosa",
+          "categoryId": 1,
+          "subCategoryId": 2,
+          "price": 70,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 70,
+            "2": 70,
+            "3": 80,
+            "4": 70
+          },
+          "subItems": [
+            {
+              "name": "Potato Masala, Chutney, Sambar",
+              "qty": "1"
+            }
+          ],
+          "cartItemId": "cart-20-1788185397393-caai",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 255,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 255,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 255,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-31T14:13:01.090Z",
+      "id": 45
+    },
+    {
+      "tableId": 3,
+      "tokenNo": "1003",
+      "tableNo": "D3",
+      "items": [
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1788185698088-3te1",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1788185698208-0500",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1788185698308-l7e7",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1788185698433-j6cm",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1788185698560-vunu",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1788185698937-6s19",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 300,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 300,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 300,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-08-31T14:15:06.705Z",
+      "id": 46
+    },
+    {
+      "subtotal": 5200,
+      "status": "settled",
+      "total": 5200,
+      "paymentDetails": {
+        "online": 0,
+        "card": 0,
+        "cash": 5200,
+        "mode": "Cash"
+      },
+      "items": [
+        {
+          "id": 38,
+          "name": "Kaju Pista Roll",
+          "qty": 1,
+          "weightKg": 5,
+          "price": 5200,
+          "unit": "5 Kg"
+        }
+      ],
+      "id": 47,
+      "createdAt": "2026-09-01T11:05:24.296Z"
+    },
+    {
+      "subtotal": 520,
+      "status": "settled",
+      "total": 520,
+      "paymentDetails": {
+        "online": 0,
+        "card": 0,
+        "cash": 520,
+        "mode": "Cash"
+      },
+      "items": [
+        {
+          "id": 38,
+          "name": "Kaju Pista Roll",
+          "qty": 2,
+          "weightKg": 0.25,
+          "price": 520,
+          "unit": "250g"
+        }
+      ],
+      "id": 48,
+      "createdAt": "2026-09-01T11:05:55.424Z"
+    },
+    {
+      "tableId": 2,
+      "tokenNo": "1002",
+      "tableNo": "D2",
+      "items": [
+        {
+          "id": 1,
+          "srNo": 101,
+          "name": "Single Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "Chutney",
+              "qty": "1"
+            },
+            {
+              "name": "Sambar",
+              "qty": "1"
+            }
+          ],
+          "stockQty": 19,
+          "status": "In Stock",
+          "cartItemId": "cart-1-1787896307684-fc66",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1787896308467-xwve",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "cartItemId": "cart-3-1787896309328-ig7q",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 33,
+          "srNo": 201,
+          "name": "Gulab Jamun",
+          "categoryId": 2,
+          "subCategoryId": 8,
+          "price": 320,
+          "hasMultiplePrices": true,
+          "variants": [
+            {
+              "unit": "250g",
+              "price": 80
+            },
+            {
+              "unit": "500g",
+              "price": 160
+            },
+            {
+              "unit": "1 Kg",
+              "price": 320
+            }
+          ],
+          "sectionPrices": {},
+          "subItems": [],
+          "unit": "1 Kg",
+          "weightKg": 1,
+          "qty": 1,
+          "cartItemId": "cart-33-1788260936310-5tu6",
+          "qtyDisplay": "1 Kg"
+        }
+      ],
+      "subtotal": 455,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 455,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 455,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-01T11:09:05.130Z",
+      "id": 49
+    },
+    {
+      "subtotal": 5200,
+      "status": "settled",
+      "total": 5200,
+      "paymentDetails": {
+        "online": 0,
+        "card": 0,
+        "cash": 5200,
+        "mode": "Cash"
+      },
+      "items": [
+        {
+          "id": 38,
+          "name": "Kaju Pista Roll",
+          "qty": 1,
+          "weightKg": 5,
+          "price": 5200,
+          "unit": "5 Kg"
+        }
+      ],
+      "id": 50,
+      "createdAt": "2026-09-01T11:14:37.267Z"
+    },
+    {
+      "subtotal": 5200,
+      "status": "settled",
+      "total": 5200,
+      "paymentDetails": {
+        "online": 0,
+        "card": 0,
+        "cash": 5200,
+        "mode": "Cash"
+      },
+      "items": [
+        {
+          "id": 38,
+          "name": "Kaju Pista Roll",
+          "qty": 1,
+          "weightKg": 5,
+          "price": 5200,
+          "unit": "5 Kg"
+        }
+      ],
+      "id": 51,
+      "createdAt": "2026-09-01T11:14:49.489Z"
+    },
+    {
+      "tableId": 1,
+      "tokenNo": "1001",
+      "tableNo": "D1",
+      "items": [
+        {
+          "id": 4,
+          "srNo": 104,
+          "name": "Sheera",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "stockQty": 1,
+          "status": "In Stock",
+          "cartItemId": "cart-4-1788184787880-2swj",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 5,
+          "srNo": 105,
+          "name": "Puri Bhaji",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 75,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 75,
+            "2": 75,
+            "3": 85,
+            "4": 75
+          },
+          "subItems": [
+            {
+              "name": "4 Puris",
+              "qty": "1 portion"
+            },
+            {
+              "name": "Potato Bhaji",
+              "qty": "1 bowl"
+            }
+          ],
+          "cartItemId": "cart-5-1788184788838-1n7l",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 34,
+          "srNo": 202,
+          "name": "Kaju Katli",
+          "categoryId": 2,
+          "subCategoryId": 7,
+          "price": 900,
+          "hasMultiplePrices": true,
+          "variants": [
+            {
+              "unit": "250g",
+              "price": 225
+            },
+            {
+              "unit": "500g",
+              "price": 450
+            },
+            {
+              "unit": "1 Kg",
+              "price": 900
+            }
+          ],
+          "sectionPrices": {},
+          "subItems": [],
+          "stockQty": 30,
+          "status": "In Stock",
+          "unit": "1 Kg",
+          "weightKg": 1,
+          "qty": 1,
+          "cartItemId": "cart-34-1788261449092-6sky",
+          "qtyDisplay": "1 Kg"
+        }
+      ],
+      "subtotal": 1020,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 1020,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 1020,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-01T11:17:33.783Z",
+      "id": 52
+    },
+    {
+      "tableId": 4,
+      "tokenNo": "1004",
+      "tableNo": "D4",
+      "items": [
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "cartItemId": "cart-3-1787896951103-lamc",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 4,
+          "srNo": 104,
+          "name": "Sheera",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "stockQty": 2,
+          "status": "In Stock",
+          "cartItemId": "cart-4-1787896951879-hwzo",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 35,
+          "srNo": 203,
+          "name": "Rasgulla",
+          "categoryId": 2,
+          "subCategoryId": 9,
+          "price": 350,
+          "hasMultiplePrices": true,
+          "variants": [
+            {
+              "unit": "250g",
+              "price": 90
+            },
+            {
+              "unit": "500g",
+              "price": 175
+            },
+            {
+              "unit": "1 Kg",
+              "price": 350
+            }
+          ],
+          "sectionPrices": {},
+          "subItems": [],
+          "unit": "1 Kg",
+          "weightKg": 1,
+          "qty": 1,
+          "cartItemId": "cart-35-1788261543787-30ma",
+          "qtyDisplay": "1 Kg"
+        }
+      ],
+      "subtotal": 430,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 430,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 430,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-01T11:19:06.428Z",
+      "id": 53
+    },
+    {
+      "tableId": 5,
+      "tokenNo": "1005",
+      "tableNo": "D5",
+      "items": [
+        {
+          "id": 5,
+          "srNo": 105,
+          "name": "Puri Bhaji",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 75,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 75,
+            "2": 75,
+            "3": 85,
+            "4": 75
+          },
+          "subItems": [
+            {
+              "name": "4 Puris",
+              "qty": "1 portion"
+            },
+            {
+              "name": "Potato Bhaji",
+              "qty": "1 bowl"
+            }
+          ],
+          "cartItemId": "cart-5-1787896937438-oly5",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 4,
+          "srNo": 104,
+          "name": "Sheera",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "stockQty": 2,
+          "status": "In Stock",
+          "cartItemId": "cart-4-1787896938373-cgwu",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 34,
+          "srNo": 202,
+          "name": "Kaju Katli",
+          "categoryId": 2,
+          "subCategoryId": 7,
+          "price": 900,
+          "hasMultiplePrices": true,
+          "variants": [
+            {
+              "unit": "250g",
+              "price": 225
+            },
+            {
+              "unit": "500g",
+              "price": 450
+            },
+            {
+              "unit": "1 Kg",
+              "price": 900
+            }
+          ],
+          "sectionPrices": {},
+          "subItems": [],
+          "stockQty": 10,
+          "status": "In Stock",
+          "unit": "1 Kg",
+          "weightKg": 1,
+          "qty": 1,
+          "cartItemId": "cart-34-1788261561548-w3qc",
+          "qtyDisplay": "1 Kg"
+        }
+      ],
+      "subtotal": 1020,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 1020,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 1020,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-01T11:19:23.476Z",
+      "id": 54
+    },
+    {
+      "tableId": 10,
+      "tokenNo": "1010",
+      "tableNo": "F2",
+      "items": [
+        {
+          "id": 7,
+          "srNo": 107,
+          "name": "Vada Sambar",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "2 Vadas",
+              "qty": "1 plate"
+            }
+          ],
+          "cartItemId": "cart-7-1787895973484-fv6z",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 8,
+          "srNo": 108,
+          "name": "Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "1 Idli 1 Vada",
+              "qty": "1 plate"
+            }
+          ],
+          "cartItemId": "cart-8-1787895974443-q870",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 1,
+          "srNo": 101,
+          "name": "Single Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "Chutney",
+              "qty": "1"
+            },
+            {
+              "name": "Sambar",
+              "qty": "1"
+            }
+          ],
+          "stockQty": 19,
+          "status": "In Stock",
+          "cartItemId": "cart-1-1787895975718-59n3",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "cartItemId": "cart-2-1787895976491-ywc4",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 220,
+      "sectionName": "First Floor",
+      "sectionExtraCharge": 0,
+      "total": 220,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 220,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T10:59:00.747Z",
+      "counterId": "C1",
+      "counterName": "Counter 1 (Breakfast & Snacks)",
+      "invoiceNo": "INV-C1-260905-101",
+      "id": 1788605941420,
+      "isOfflineQueued": true,
+      "queuedAt": "2026-09-05T10:59:00.770Z",
+      "synced": 0,
+      "syncedAt": "2026-09-05T10:58:55.377Z",
+      "wasOffline": true
+    },
+    {
+      "tableId": 1,
+      "tokenNo": "1001",
+      "tableNo": "D1",
+      "items": [
+        {
+          "id": 1,
+          "srNo": 101,
+          "name": "Single Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "Chutney",
+              "qty": "1"
+            },
+            {
+              "name": "Sambar",
+              "qty": "1"
+            }
+          ],
+          "stockQty": 0,
+          "status": "In Stock",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 10,
+          "srNo": 110,
+          "name": "Shabu Khichdi",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "Curd",
+              "qty": "1 bowl"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 110,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 110,
+      "counter": "Master Server / Owner PC",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 110,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T10:59:23.088Z",
+      "counterId": "M",
+      "counterName": "Master Server / Owner PC",
+      "invoiceNo": "INV-M-260905-101",
+      "id": 1788605941421
+    },
+    {
+      "tableId": 2,
+      "tokenNo": "1002",
+      "tableNo": "D2",
+      "items": [
+        {
+          "id": 4,
+          "srNo": 104,
+          "name": "Sheera",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "stockQty": 0,
+          "status": "Out of Stock",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 11,
+          "srNo": 111,
+          "name": "Dahi Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 70,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 70,
+            "2": 70,
+            "3": 80,
+            "4": 70
+          },
+          "subItems": [],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 115,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 115,
+      "counter": "Master Server / Owner PC",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 115,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T10:59:36.357Z",
+      "counterId": "M",
+      "counterName": "Master Server / Owner PC",
+      "invoiceNo": "INV-M-260905-102",
+      "id": 1788605941422
+    },
+    {
+      "tableId": 6,
+      "tokenNo": "1006",
+      "tableNo": "D6",
+      "items": [
+        {
+          "id": 6,
+          "srNo": 106,
+          "name": "Idli",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "2 Idlis",
+              "qty": "1 plate"
+            },
+            {
+              "name": "Sambar & Chutney",
+              "qty": "1"
+            }
+          ],
+          "cartItemId": "cart-6-1787896942280-2lyn",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 5,
+          "srNo": 105,
+          "name": "Puri Bhaji",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 75,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 75,
+            "2": 75,
+            "3": 85,
+            "4": 75
+          },
+          "subItems": [
+            {
+              "name": "4 Puris",
+              "qty": "1 portion"
+            },
+            {
+              "name": "Potato Bhaji",
+              "qty": "1 bowl"
+            }
+          ],
+          "cartItemId": "cart-5-1787896943213-r5v4",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 125,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 125,
+      "counter": "Master Server / Owner PC",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 125,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T10:59:53.999Z",
+      "counterId": "M",
+      "counterName": "Master Server / Owner PC",
+      "invoiceNo": "INV-M-260905-103",
+      "id": 1788605941423
+    },
+    {
+      "tableId": 12,
+      "tokenNo": "1012",
+      "tableNo": "F4",
+      "items": [
+        {
+          "id": 10,
+          "srNo": 110,
+          "name": "Shabu Khichdi",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "Curd",
+              "qty": "1 bowl"
+            }
+          ],
+          "cartItemId": "cart-10-1787896101819-uxf2",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 9,
+          "srNo": 109,
+          "name": "Shabu Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 70,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 70,
+            "2": 70,
+            "3": 80,
+            "4": 70
+          },
+          "subItems": [],
+          "stockQty": 20,
+          "status": "In Stock",
+          "cartItemId": "cart-9-1787896102818-fgvx",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 130,
+      "sectionName": "First Floor",
+      "sectionExtraCharge": 0,
+      "total": 130,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 130,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T11:02:35.160Z",
+      "counterId": "C1",
+      "counterName": "Counter 1 (Breakfast & Snacks)",
+      "invoiceNo": "INV-C1-260905-103",
+      "id": 1788605941424
+    },
+    {
+      "tableId": 3,
+      "tokenNo": "1003",
+      "tableNo": "D3",
+      "items": [
+        {
+          "id": 15,
+          "srNo": 115,
+          "name": "Dhokla",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 17,
+          "srNo": 117,
+          "name": "Pakoda",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [],
+          "stockQty": 10,
+          "status": "In Stock",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 95,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 95,
+      "counter": "Master Server / Owner PC",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 95,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T11:02:35.497Z",
+      "counterId": "M",
+      "counterName": "Master Server / Owner PC",
+      "invoiceNo": "INV-M-260905-104",
+      "id": 1788605941425
+    },
+    {
+      "tableId": 3,
+      "tokenNo": "1003",
+      "tableNo": "D3",
+      "items": [
+        {
+          "id": 4,
+          "srNo": 104,
+          "name": "Sheera",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "stockQty": 0,
+          "status": "Out of Stock",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 45,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 45,
+      "counter": "Master Server / Owner PC",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 45,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T11:27:50.271Z",
+      "counterId": "M",
+      "counterName": "Master Server / Owner PC",
+      "invoiceNo": "INV-M-260905-106",
+      "id": 1788605941426
+    },
+    {
+      "tableId": 5,
+      "tokenNo": "1005",
+      "tableNo": "D5",
+      "items": [
+        {
+          "id": 5,
+          "srNo": 105,
+          "name": "Puri Bhaji",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 75,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 75,
+            "2": 75,
+            "3": 85,
+            "4": 75
+          },
+          "subItems": [
+            {
+              "name": "4 Puris",
+              "qty": "1 portion"
+            },
+            {
+              "name": "Potato Bhaji",
+              "qty": "1 bowl"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 6,
+          "srNo": 106,
+          "name": "Idli",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "2 Idlis",
+              "qty": "1 plate"
+            },
+            {
+              "name": "Sambar & Chutney",
+              "qty": "1"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 125,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 125,
+      "counter": "Master Server / Owner PC",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 125,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T11:27:56.571Z",
+      "counterId": "M",
+      "counterName": "Master Server / Owner PC",
+      "invoiceNo": "INV-M-260905-107",
+      "id": 1788605941427
+    },
+    {
+      "tableId": 5,
+      "tokenNo": "1005",
+      "tableNo": "D5",
+      "items": [
+        {
+          "id": 6,
+          "srNo": 106,
+          "name": "Idli",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "2 Idlis",
+              "qty": "1 plate"
+            },
+            {
+              "name": "Sambar & Chutney",
+              "qty": "1"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 50,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 50,
+      "counter": "Master Server / Owner PC",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 50,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T11:43:19.259Z",
+      "counterId": "M",
+      "counterName": "Master Server / Owner PC",
+      "invoiceNo": "INV-M-260905-108",
+      "id": 1788605941428
+    },
+    {
+      "tableId": 3,
+      "tokenNo": "1003",
+      "tableNo": "D3",
+      "items": [
+        {
+          "id": 10,
+          "srNo": 110,
+          "name": "Shabu Khichdi",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "Curd",
+              "qty": "1 bowl"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 11,
+          "srNo": 111,
+          "name": "Dahi Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 70,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 70,
+            "2": 70,
+            "3": 80,
+            "4": 70
+          },
+          "subItems": [],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 130,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 130,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 130,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T11:44:58.888Z",
+      "counterId": "C1",
+      "counterName": "Counter 1 (Breakfast & Snacks)",
+      "invoiceNo": "INV-C1-260905-104",
+      "id": 1788605941429
+    },
+    {
+      "tableId": 11,
+      "tokenNo": "1011",
+      "tableNo": "F3",
+      "items": [
+        {
+          "id": 8,
+          "srNo": 108,
+          "name": "Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "1 Idli 1 Vada",
+              "qty": "1 plate"
+            }
+          ],
+          "cartItemId": "cart-8-1787895987164-80gz",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 9,
+          "srNo": 109,
+          "name": "Shabu Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 70,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 70,
+            "2": 70,
+            "3": 80,
+            "4": 70
+          },
+          "subItems": [],
+          "stockQty": 20,
+          "status": "In Stock",
+          "cartItemId": "cart-9-1787895987930-7h55",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 130,
+      "sectionName": "First Floor",
+      "sectionExtraCharge": 0,
+      "total": 130,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 130,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T11:45:39.907Z",
+      "counterId": "C1",
+      "counterName": "Counter 1 (Breakfast & Snacks)",
+      "invoiceNo": "INV-C1-260905-105",
+      "id": 1788605941430
+    },
+    {
+      "tableId": 2,
+      "tokenNo": "1002",
+      "tableNo": "D2",
+      "items": [
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 35,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 35,
+      "counter": "Master Server / Owner PC",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 35,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T11:57:15.014Z",
+      "counterId": "M",
+      "counterName": "Master Server / Owner PC",
+      "invoiceNo": "INV-M-260905-109",
+      "id": 1788605941431
+    },
+    {
+      "tableId": 4,
+      "tokenNo": "1004",
+      "tableNo": "D4",
+      "items": [
+        {
+          "id": 5,
+          "srNo": 105,
+          "name": "Puri Bhaji",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 75,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 75,
+            "2": 75,
+            "3": 85,
+            "4": 75
+          },
+          "subItems": [
+            {
+              "name": "4 Puris",
+              "qty": "1 portion"
+            },
+            {
+              "name": "Potato Bhaji",
+              "qty": "1 bowl"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 6,
+          "srNo": 106,
+          "name": "Idli",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "2 Idlis",
+              "qty": "1 plate"
+            },
+            {
+              "name": "Sambar & Chutney",
+              "qty": "1"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 125,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 125,
+      "counter": "Master Server / Owner PC",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 125,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T11:57:17.140Z",
+      "counterId": "M",
+      "counterName": "Master Server / Owner PC",
+      "invoiceNo": "INV-M-260905-110",
+      "id": 1788605941432
+    },
+    {
+      "tableId": 6,
+      "tokenNo": "1006",
+      "tableNo": "D6",
+      "items": [
+        {
+          "id": 6,
+          "srNo": 106,
+          "name": "Idli",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "2 Idlis",
+              "qty": "1 plate"
+            },
+            {
+              "name": "Sambar & Chutney",
+              "qty": "1"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 50,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 50,
+      "counter": "Master Server / Owner PC",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 50,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T11:57:18.834Z",
+      "counterId": "M",
+      "counterName": "Master Server / Owner PC",
+      "invoiceNo": "INV-M-260905-111",
+      "id": 1788605941433
+    },
+    {
+      "tableId": 7,
+      "tokenNo": "1007",
+      "tableNo": "D7",
+      "items": [
+        {
+          "id": 5,
+          "srNo": 105,
+          "name": "Puri Bhaji",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 75,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 75,
+            "2": 75,
+            "3": 85,
+            "4": 75
+          },
+          "subItems": [
+            {
+              "name": "4 Puris",
+              "qty": "1 portion"
+            },
+            {
+              "name": "Potato Bhaji",
+              "qty": "1 bowl"
+            }
+          ],
+          "cartItemId": "cart-5-1787896295712-xb5a",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 4,
+          "srNo": 104,
+          "name": "Sheera",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 45,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 45,
+            "2": 45,
+            "3": 55,
+            "4": 45
+          },
+          "subItems": [],
+          "stockQty": 5,
+          "status": "In Stock",
+          "cartItemId": "cart-4-1787896296637-vw20",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 120,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 120,
+      "counter": "Master Server / Owner PC",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 120,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T11:57:20.720Z",
+      "counterId": "M",
+      "counterName": "Master Server / Owner PC",
+      "invoiceNo": "INV-M-260905-112",
+      "id": 1788605941434
+    },
+    {
+      "tableId": 9,
+      "tokenNo": "7597",
+      "tableNo": "F1",
+      "items": [
+        {
+          "id": 8,
+          "srNo": 108,
+          "name": "Idli Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "1 Idli 1 Vada",
+              "qty": "1 plate"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 60,
+      "sectionName": "First Floor",
+      "sectionExtraCharge": 0,
+      "total": 60,
+      "counter": "Counter 1 (Breakfast & Snacks)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 60,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T11:59:20.365Z",
+      "counterId": "C1",
+      "counterName": "Counter 1 (Breakfast & Snacks)",
+      "invoiceNo": "INV-C1-260905-106",
+      "id": 1788609560396,
+      "isOfflineQueued": true,
+      "queuedAt": "2026-09-05T11:59:20.380Z",
+      "synced": 0,
+      "syncedAt": "2026-09-05T12:06:10.088Z",
+      "wasOffline": true
+    },
+    {
+      "tableId": 13,
+      "tokenNo": "1013",
+      "tableNo": "F5",
+      "items": [
+        {
+          "id": 11,
+          "srNo": 111,
+          "name": "Dahi Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 70,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 70,
+            "2": 70,
+            "3": 80,
+            "4": 70
+          },
+          "subItems": [],
+          "cartItemId": "cart-11-1787896106124-677f",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 12,
+          "srNo": 112,
+          "name": "Batata Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 40,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 40,
+            "2": 40,
+            "3": 50,
+            "4": 40
+          },
+          "subItems": [],
+          "cartItemId": "cart-12-1787896106910-jqno",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 110,
+      "sectionName": "First Floor",
+      "sectionExtraCharge": 0,
+      "total": 110,
+      "counter": "Master Server / Owner PC",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 110,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T12:06:25.191Z",
+      "counterId": "M",
+      "counterName": "Master Server / Owner PC",
+      "invoiceNo": "INV-M-260905-113",
+      "id": 1788609560397
+    },
+    {
+      "tableId": 12,
+      "tokenNo": "1012",
+      "tableNo": "F4",
+      "items": [
+        {
+          "id": 10,
+          "srNo": 110,
+          "name": "Shabu Khichdi",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "Curd",
+              "qty": "1 bowl"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 11,
+          "srNo": 111,
+          "name": "Dahi Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 70,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 70,
+            "2": 70,
+            "3": 80,
+            "4": 70
+          },
+          "subItems": [],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 130,
+      "sectionName": "First Floor",
+      "sectionExtraCharge": 0,
+      "total": 130,
+      "counter": "Master Server / Owner PC",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 130,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T12:06:30.246Z",
+      "counterId": "M",
+      "counterName": "Master Server / Owner PC",
+      "invoiceNo": "INV-M-260905-114",
+      "id": 1788609560398
+    },
+    {
+      "tableId": 2,
+      "tokenNo": "1002",
+      "tableNo": "D2",
+      "items": [
+        {
+          "id": 3,
+          "srNo": 103,
+          "name": "Pohe",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 35,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 35,
+            "2": 35,
+            "3": 45,
+            "4": 35
+          },
+          "subItems": [
+            {
+              "name": "Sev & Lemon",
+              "qty": "1"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 35,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 35,
+      "counter": "Master Server / Owner PC",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 35,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T12:07:14.663Z",
+      "counterId": "M",
+      "counterName": "Master Server / Owner PC",
+      "invoiceNo": "INV-M-260905-115",
+      "id": 1788609560399
+    },
+    {
+      "tableId": 14,
+      "tokenNo": "1014",
+      "tableNo": "F6",
+      "items": [
+        {
+          "id": 11,
+          "srNo": 111,
+          "name": "Dahi Vada",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 70,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 70,
+            "2": 70,
+            "3": 80,
+            "4": 70
+          },
+          "subItems": [],
+          "cartItemId": "cart-11-1787895993862-2exf",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 10,
+          "srNo": 110,
+          "name": "Shabu Khichdi",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "subItems": [
+            {
+              "name": "Curd",
+              "qty": "1 bowl"
+            }
+          ],
+          "cartItemId": "cart-10-1787895994653-wc5c",
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 130,
+      "sectionName": "First Floor",
+      "sectionExtraCharge": 0,
+      "total": 130,
+      "counter": "Master Server / Owner PC",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 130,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T12:07:38.395Z",
+      "counterId": "M",
+      "counterName": "Master Server / Owner PC",
+      "invoiceNo": "INV-M-260905-116",
+      "id": 1788609560400
+    },
+    {
+      "tableId": 2,
+      "tokenNo": "1002",
+      "tableNo": "D2",
+      "items": [
+        {
+          "id": 2,
+          "srNo": 102,
+          "name": "Uppit",
+          "marathiName": "उप्पीट",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "stockQty": 25,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "counter": "Breakfast",
+          "status": "In Stock",
+          "subItems": [],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        },
+        {
+          "id": 8,
+          "srNo": 108,
+          "name": "Idli Vada",
+          "marathiName": "इडली वडा मिक्स",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 60,
+          "stockQty": 30,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 60,
+            "2": 60,
+            "3": 70,
+            "4": 60
+          },
+          "counter": "Breakfast",
+          "status": "In Stock",
+          "subItems": [
+            {
+              "name": "1 Idli 1 Vada",
+              "qty": "1 plate"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 110,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 110,
+      "counter": "Counter 3 (Parcels & Fast Food)",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 110,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T12:17:59.272Z",
+      "counterId": "C3",
+      "counterName": "Counter 3 (Parcels & Fast Food)",
+      "invoiceNo": "INV-C3-260905-101",
+      "id": 1788609560401
+    },
+    {
+      "tableId": 5,
+      "tokenNo": "9957",
+      "tableNo": "D5",
+      "items": [
+        {
+          "id": 6,
+          "srNo": 106,
+          "name": "Idli",
+          "categoryId": 1,
+          "subCategoryId": 1,
+          "price": 50,
+          "hasMultiplePrices": false,
+          "variants": [],
+          "sectionPrices": {
+            "1": 50,
+            "2": 50,
+            "3": 60,
+            "4": 50
+          },
+          "subItems": [
+            {
+              "name": "2 Idlis",
+              "qty": "1 plate"
+            },
+            {
+              "name": "Sambar & Chutney",
+              "qty": "1"
+            }
+          ],
+          "qty": 1,
+          "unit": "1",
+          "qtyDisplay": "1"
+        }
+      ],
+      "subtotal": 50,
+      "sectionName": "Dine In Area",
+      "sectionExtraCharge": 0,
+      "total": 50,
+      "counter": "Master Server / Owner PC",
+      "paymentDetails": {
+        "mode": "Cash",
+        "cash": 50,
+        "online": 0,
+        "card": 0
+      },
+      "status": "settled",
+      "createdAt": "2026-09-05T12:18:11.659Z",
+      "counterId": "M",
+      "counterName": "Master Server / Owner PC",
+      "invoiceNo": "INV-M-260905-117",
+      "id": 1788609560402
+    }
+  ],
+  "billLogs": [
+    {
+      "billId": 10,
+      "timestamp": "27/08/26, 2:42:58 pm",
+      "changeDescription": "Modified Bill #10",
+      "id": 1
+    },
+    {
+      "billId": 10,
+      "timestamp": "27/08/26, 2:43:51 pm",
+      "changeDescription": "Modified Bill #10",
+      "id": 2
+    }
+  ],
+  "rawMaterials": [
+    {
+      "name": "kaaju",
+      "quantity": 20,
+      "minThreshold": 5,
+      "unit": "Kg",
+      "id": 1
+    }
+  ],
+  "recipes": [
+    {
+      "dishId": 34,
+      "rawMaterialId": 1,
+      "qtyRequired": 10,
+      "id": 1
+    }
+  ],
+  "systemSettings": {
+    "hotelName": "Karuna Hotel",
+    "masterIp": "127.0.0.1",
+    "port": 3001,
+    "lastUpdated": "2026-08-26T12:00:00.000Z"
+  }
+}

@@ -1,0 +1,62 @@
+================================================================================
+          KARUNA HOTEL POS - MULTI-LAPTOP LAN CONNECTION SETUP
+================================================================================
+
+--------------------------------------------------------------------------------
+1. PHYSICAL NETWORK CABLE CONNECTION (ONE-TIME)
+--------------------------------------------------------------------------------
+* Connect Master Server PC to Switch Port 1 using CAT6 Ethernet cable.
+* Connect Laptop 1 (Counter 1) to Switch Port 2 using CAT6 Ethernet cable.
+* Connect Laptop 2 (Counter 2) to Switch Port 3 using CAT6 Ethernet cable.
+* Connect Laptop 3 (Counter 3) to Switch Port 4 using CAT6 Ethernet cable.
+* (Or connect all laptops to the same Wi-Fi router network).
+
+
+--------------------------------------------------------------------------------
+2. ON MASTER SERVER PC (OWNER / CENTRAL DATABASE)
+--------------------------------------------------------------------------------
+1. Right-click 'ALLOW_FIREWALL_ON_SERVER.bat' and choose 'Run as Administrator'.
+2. Double click:
+   👉 START_OWNER_DESKTOP_SERVER.bat
+
+3. The Master POS Standalone Desktop Application will launch automatically.
+4. The screen will show your Master LAN IP address (e.g. 192.168.1.100).
+
+
+--------------------------------------------------------------------------------
+3. ON COUNTER 1 LAPTOP (BREAKFAST & SNACKS)
+--------------------------------------------------------------------------------
+1. Double click:
+   👉 START_COUNTER_LAPTOP.bat
+
+2. On first startup, type the Master Server IP (e.g. 192.168.1.100).
+   (It permanently saves it, so it will remember it on every subsequent launch).
+3. The Counter POS Desktop Window opens in full screen!
+4. Header will show: [Counter 1 (Breakfast & Snacks)] (Prefix: INV-C1-...)
+
+
+--------------------------------------------------------------------------------
+4. ON COUNTER 2 LAPTOP (SWEETS & MITHAI)
+--------------------------------------------------------------------------------
+1. Double click:
+   👉 START_COUNTER_LAPTOP.bat
+2. In top-right terminal dropdown, select: [Counter 2 (Sweets & Mithai)].
+3. Dynamic Per-Kg rate calculations and sweet box billing is active! (Prefix: INV-C2-...)
+
+
+--------------------------------------------------------------------------------
+5. ON COUNTER 3 LAPTOP (PARCELS & FAST FOOD)
+--------------------------------------------------------------------------------
+1. Double click:
+   👉 START_COUNTER_LAPTOP.bat
+2. In top-right terminal dropdown, select: [Counter 3 (Parcels & Fast Food)].
+3. Parcel and fast takeaway billing is active! (Prefix: INV-C3-...)
+
+
+--------------------------------------------------------------------------------
+6. WHAT IF THE MASTER SERVER LOSES POWER?
+--------------------------------------------------------------------------------
+* All counters will instantly show "⚡ Local Offline Mode".
+* Cashiers can continue billing, taking payments, and printing receipts without interruption.
+* As soon as the Master Server turns back ON, all offline bills automatically sync!
+================================================================================
